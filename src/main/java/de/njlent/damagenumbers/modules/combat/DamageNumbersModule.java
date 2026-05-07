@@ -34,6 +34,13 @@ public class DamageNumbersModule extends Module {
         .build()
     );
 
+    private final Setting<Boolean> textFeedback = sgGeneral.add(new BoolSetting.Builder()
+        .name("text-feedback")
+        .description("Prints damage numbers to Meteor chat feedback.")
+        .defaultValue(false)
+        .build()
+    );
+
     private final Setting<Integer> displayTicks = sgGeneral.add(new IntSetting.Builder()
         .name("display-ticks")
         .description("How long damage numbers stay visible, in ticks.")
@@ -140,6 +147,9 @@ public class DamageNumbersModule extends Module {
         particle.setColor(getColor(damage));
         particles.add(particle);
 
+        if (textFeedback.get()) {
+            info("%s took %s damage.", entity.getName().getString(), text);
+        }
     }
 
     private void render(LevelRenderContext context) {
