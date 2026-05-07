@@ -15,7 +15,7 @@ A [Meteor Client](https://github.com/MeteorDevelopment/meteor-client) addon that
 
 ## Features
 
-Adds a Combat module named `damage-numbers` that shows floating damage tecxt when nearby living entities take damage.
+Adds a Combat module named `damage-numbers` that shows floating damage text when nearby living entities take damage.
 
 - Floating damage numbers above damaged entities.
 - Optional damage numbers when the local player takes damage.
