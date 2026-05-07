@@ -10,6 +10,10 @@ base {
 
 repositories {
     maven {
+        name = "Fabric"
+        url = uri("https://maven.fabricmc.net/")
+    }
+    maven {
         name = "meteor-maven"
         url = uri("https://maven.meteordev.org/releases")
     }
@@ -23,6 +27,7 @@ dependencies {
     // Fabric
     minecraft(libs.minecraft)
     implementation(libs.fabric.loader)
+    implementation(libs.fabric.api)
 
     // Meteor
     implementation(libs.meteor.client)

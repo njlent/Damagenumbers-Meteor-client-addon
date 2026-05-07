@@ -1,24 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "damage-numbers-meteor-addon",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "Damage Numbers Meteor Addon",
+  "description": "Meteor Client combat module for floating damage numbers.",
   "authors": [
-    "seasnail"
+    "luavixen",
+    "njlent"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com/njlent/Damagenumbers-Meteor-client-addon"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/damagenumbers/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "de.njlent.damagenumbers.DamageNumbersMeteorAddon"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "damage-numbers-meteor.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25",
@@ -31,6 +32,8 @@
   "depends": {
     "java": ">=${jdk_version}",
     "minecraft": "${minecraft_version}",
+    "fabricloader": ">=0.19.2",
+    "fabric-api": "*",
     "meteor-client": "*"
   }
 }
