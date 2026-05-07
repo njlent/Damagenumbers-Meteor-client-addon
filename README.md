@@ -1,5 +1,5 @@
 <div align="center">
-<h1> <img src="https://meteorclient.com/icon.png" width="150px"><br/>Damage Numbers Addon</h1>
+<h1> <img src="img/icon.png" width="200px"><br/>Damage Numbers Addon</h1>
 
  <img src="https://img.shields.io/badge/Meteor Client Addon-6f1ab1?logo=meteor&logoColor=white"/> 
  <br>
@@ -53,6 +53,14 @@ Adds a Combat module named `damage-numbers` that shows floating damage tecxt whe
 >     </td>
 >     <td valign="middle">
 >       <a href="https://github.com/njlent/Wurstmeteor-Meteor-client-addon">WurstMeteor Addon - ports selected Wurst Client features</a>
+>     </td>
+>   </tr>
+>   <tr>
+>     <td valign="middle">
+>       <img src="https://raw.githubusercontent.com/njlent/Damagenumbers-Meteor-client-addon/refs/heads/master/img/icon.png" width="50" alt="DamageNumbers Addon icon">
+>     </td>
+>     <td valign="middle">
+>       <a href="https://github.com/njlent/Damagenumbers-Meteor-client-addon">DamageNumbers Addon - damage numbers and particles</a>
 >     </td>
 >   </tr>
 > </table>
