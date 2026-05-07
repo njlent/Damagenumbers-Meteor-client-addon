@@ -1,5 +1,5 @@
 <div align="center">
-<h1> <img src="https://meteorclient.com/icon.png" width="150px"><br/>Damagenumbers Addon</h1>
+<h1> <img src="https://meteorclient.com/icon.png" width="150px"><br/>Damage Numbers Addon</h1>
 
  <img src="https://img.shields.io/badge/Meteor Client Addon-6f1ab1?logo=meteor&logoColor=white"/> 
  <br>
@@ -8,7 +8,7 @@
 </div>
 <br/>
 
-A [Meteor Client](https://github.com/MeteorDevelopment/meteor-client) addon that ports the [Damage numbers mod](https://github.com/njlent/damagenumbers_26.1) by [luavixen](https://github.com/luavixen/damagenumbers) to Meteor.
+A [Meteor Client](https://github.com/MeteorDevelopment/meteor-client) addon that ports the [Damage Numbers mod](https://github.com/njlent/damagenumbers_26.1) by [luavixen](https://github.com/luavixen/damagenumbers) to Meteor.
 
 ## Download Supported version: 
 - **Minecraft 26.1.2 ([latest](https://github.com/njlent/Damagenumbers-Meteor-client-addon/releases))**
