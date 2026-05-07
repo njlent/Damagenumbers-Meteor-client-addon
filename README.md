@@ -1,8 +1,21 @@
-# Damage Numbers Meteor Addon
+<div align="center">
+<h1> <img src="https://meteorclient.com/icon.png" width="150px"><br/>Damagenumbers Addon</h1>
 
-Meteor Client addon for Minecraft 26.1.2. Adds a Combat module named `damage-numbers` that shows floating damage text when nearby living entities take damage.
+ <img src="https://img.shields.io/badge/Meteor Client Addon-6f1ab1?logo=meteor&logoColor=white"/> 
+ <br>
+ <a href="https://github.com/njlent/Damagenumbers-Meteor-client-addon/releases"><img src="https://img.shields.io/badge/minecraft-26.1.2-green"/></a>
+
+</div>
+<br/>
+
+A [Meteor Client](https://github.com/MeteorDevelopment/meteor-client) addon that ports the [Damage numbers mod](https://github.com/njlent/damagenumbers_26.1) by [luavixen](https://github.com/luavixen/damagenumbers) to Meteor.
+
+## Download Supported version: 
+- **Minecraft 26.1.2 ([latest](https://github.com/njlent/Damagenumbers-Meteor-client-addon/releases))**
 
 ## Features
+
+Adds a Combat module named `damage-numbers` that shows floating damage tecxt when nearby living entities take damage.
 
 - Floating damage numbers above damaged entities.
 - Optional damage numbers when the local player takes damage.
@@ -18,10 +31,28 @@ Meteor Client addon for Minecraft 26.1.2. Adds a Combat module named `damage-num
 - `custom-colors`: use configured damage colors instead of white.
 - `small-color`, `medium-color`, `large-color`, `critical-color`: color ramp matching the original mod behavior.
 
-## Build
+<br>
+<br>
+<br>
 
-```powershell
-.\gradlew.bat build
-```
-
-The addon jar is written to `build/libs`.
+> [!IMPORTANT]
+> Check out my other Meteor addons:
+>
+> <table>
+>   <tr>
+>     <td valign="middle">
+>       <img src="https://raw.githubusercontent.com/njlent/Minehop-Meteor-client-addon/refs/heads/main/img/icon.png" width="50" alt="WurstMeteor Addon icon">
+>     </td>
+>     <td valign="middle">
+>       <a href="https://github.com/njlent/Minehop-Meteor-client-addon">Minehop Addon - Source Engine-style bunnyhopping</a>
+>     </td>
+>   </tr>
+>   <tr>
+>     <td valign="middle">
+>       <img src="https://raw.githubusercontent.com/njlent/Wurstmeteor-Meteor-client-addon/refs/heads/master/img/icon.png" width="50" alt="WurstMeteor Addon icon">
+>     </td>
+>     <td valign="middle">
+>       <a href="https://github.com/njlent/Wurstmeteor-Meteor-client-addon">WurstMeteor Addon - ports selected Wurst Client features</a>
+>     </td>
+>   </tr>
+> </table>
