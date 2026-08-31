@@ -3,15 +3,17 @@
 
  <img src="https://img.shields.io/badge/Meteor Client Addon-6f1ab1?logo=meteor&logoColor=white"/> 
  <br>
- <a href="https://github.com/njlent/Damagenumbers-Meteor-client-addon/releases"><img src="https://img.shields.io/badge/minecraft-26.1.2-green"/></a>
+ <a href="https://github.com/njlent/Damagenumbers-Meteor-client-addon/releases"><img src="https://img.shields.io/badge/minecraft-26.2-green"/></a>
+ <a href="https://github.com/njlent/Damagenumbers-Meteor-client-addon/releases/tag/v1.0.02"><img src="https://img.shields.io/badge/minecraft-26.1-darkgreen"/></a>
 
 </div>
 <br/>
 
 A [Meteor Client](https://github.com/MeteorDevelopment/meteor-client) addon that ports the [Damage Numbers mod](https://github.com/njlent/damagenumbers_26.1) by [luavixen](https://github.com/luavixen/damagenumbers) to Meteor.
 
-## Download Supported version: 
-- **Minecraft 26.1.2 ([latest](https://github.com/njlent/Damagenumbers-Meteor-client-addon/releases))**
+## Download Supported version:
+- **Minecraft 26.2 ([latest](https://github.com/njlent/Damagenumbers-Meteor-client-addon/releases))**
+- **Minecraft 26.1.2 ([up to v1.0.02](https://github.com/njlent/Damagenumbers-Meteor-client-addon/releases/tag/v1.0.02))**
 
 ## Features
 

@@ -32,7 +32,7 @@
   "depends": {
     "java": ">=${jdk_version}",
     "minecraft": "${minecraft_version}",
-    "fabricloader": ">=0.19.2",
+    "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
     "meteor-client": "*"
   }
