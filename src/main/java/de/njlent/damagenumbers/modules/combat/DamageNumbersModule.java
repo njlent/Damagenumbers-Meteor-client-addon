@@ -135,7 +135,7 @@ public class DamageNumbersModule extends Module {
         }
 
         Vec3 particlePos = entity.position().add(0.0, entity.getBbHeight() + 0.25, 0.0);
-        Vec3 cameraPos = client.gameRenderer.getMainCamera().position();
+        Vec3 cameraPos = client.gameRenderer.mainCamera().position();
         Vec3 cameraDirection = cameraPos.subtract(entity.position()).normalize();
         Vec3 particleVelocity = entity.getDeltaMovement()
             .scale(0.1)
@@ -161,7 +161,7 @@ public class DamageNumbersModule extends Module {
             client.font,
             context.poseStack(),
             context.submitNodeCollector(),
-            context.gameRenderer().getMainCamera(),
+            context.gameRenderer().mainCamera(),
             context.levelState().cameraRenderState,
             tickDelta
         ));

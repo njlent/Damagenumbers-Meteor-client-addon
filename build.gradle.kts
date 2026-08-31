@@ -3,9 +3,9 @@ plugins {
 }
 
 base {
-    archivesName = properties["archives_base_name"] as String
+    archivesName = providers.gradleProperty("archives_base_name").get()
     version = libs.versions.mod.version.get()
-    group = properties["maven_group"] as String
+    group = providers.gradleProperty("maven_group").get()
 }
 
 repositories {
@@ -54,6 +54,7 @@ tasks {
             "version" to project.version,
             "minecraft_version" to toMinecraftCompat(libs.versions.minecraft.get()),
             "jdk_version" to libs.versions.jdk.get(),
+            "loader_version" to libs.versions.fabric.loader.get(),
         )
 
         inputs.properties(propertyMap)
